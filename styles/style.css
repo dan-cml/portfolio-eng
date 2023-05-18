@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.social {
+    display: block;
+    float: left;
+    min-height: 100%;
+    background: #f8f8f8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 180px;
+    }
+
+    .social ul {
+        position: fixed;
+        margin: 0;
+        top: 50px;
+        left: 55px;
+        display: table;
+        text-align: center;
+    }
+
+    .social li{
+        color: #4c5958;
+        padding: 20px 0px;
+    }
+
+    .icone {
+        scale: 2;
+    }
+
+    .content {
+    min-height: 100%;
+    padding: 48px 0 60px 42px;
+    margin-left: 180px;
+    }
+
+    /* @media (min-width: 774px) and (max-width: 1047px)
+    .content {
+        padding-left: 24px;
+        margin-left: 214px;
+    } */
