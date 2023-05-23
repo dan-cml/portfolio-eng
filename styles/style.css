@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Configuração menu lateral */
+
 .social {
     display: block;
     float: left;
@@ -42,3 +44,26 @@
         padding-left: 24px;
         margin-left: 214px;
     } */
+
+    /* Configuração Conteudo */
+
+
+    .content > h1 {
+        text-align: center;
+    }
+
+    .sobre {
+        display: flex;
+        margin: 50px 0px;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .content img {
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .content > .sobre > p {
+        padding: 0px 30px;
+    }
