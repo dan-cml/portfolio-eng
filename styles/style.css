@@ -35,7 +35,7 @@
 
 .content {
 min-height: 100%;
-padding: 48px 0 60px 42px;
+padding: 0px 15% 60px 42px;
 margin-left: 180px;
 }
 
@@ -47,9 +47,15 @@ margin-left: 180px;
 
 /* Configuração Conteudo */
 
-
-.content > h1 {
+h1 {
+    margin-left: 180px;
+    padding-top: 48px;
     text-align: center;
+}
+
+.content h1 {
+    text-align: left;
+    margin-left: 0px;
 }
 
 .sobre {
